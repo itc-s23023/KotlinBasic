@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d54ec2c-c84b-4ce5-99c8-1f7b2cfc224a" name="変更" comment="8章終わり">
+    <list default="true" id="5d54ec2c-c84b-4ce5-99c8-1f7b2cfc224a" name="変更" comment="9章終わり">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Chap10.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/Check01.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +73,9 @@
     "Kotlin.Chap02Kt.executor": "Run",
     "Kotlin.Chap07Kt.executor": "Run",
     "Kotlin.Chap08Kt.executor": "Run",
+    "Kotlin.Chap09Kt.executor": "Run",
+    "Kotlin.Chap10Kt.executor": "Run",
+    "Kotlin.Check01Kt.executor": "Run",
     "Kotlin.MainKt.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -90,14 +95,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.Chap08Kt">
-    <configuration name="Chap02Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Chap02Kt" />
-      <module name="KotlinBasic.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.Chap10Kt">
     <configuration name="Chap07Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Chap07Kt" />
       <module name="KotlinBasic.main" />
@@ -112,8 +110,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.MainKt" />
+    <configuration name="Chap09Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Chap09Kt" />
+      <module name="KotlinBasic.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Chap10Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Chap10Kt" />
+      <module name="KotlinBasic.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Check01Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Check01Kt" />
       <module name="KotlinBasic.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,10 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Chap10Kt" />
+        <item itemvalue="Kotlin.Check01Kt" />
+        <item itemvalue="Kotlin.Chap09Kt" />
         <item itemvalue="Kotlin.Chap08Kt" />
         <item itemvalue="Kotlin.Chap07Kt" />
-        <item itemvalue="Kotlin.Chap02Kt" />
-        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +158,7 @@
       <option name="presentableId" value="Default" />
       <updated>1715130858732</updated>
       <workItem from="1715130859938" duration="16593000" />
-      <workItem from="1715214935193" duration="897000" />
+      <workItem from="1715214935193" duration="2142000" />
     </task>
     <task id="LOCAL-00001" summary="2章終わり">
       <option name="closed" value="true" />
@@ -171,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715215811113</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="9章終わり">
+      <option name="closed" value="true" />
+      <created>1715216216049</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715216216049</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +212,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2章終わり" />
     <MESSAGE value="8章終わり" />
-    <option name="LAST_COMMIT_MESSAGE" value="8章終わり" />
+    <MESSAGE value="9章終わり" />
+    <option name="LAST_COMMIT_MESSAGE" value="9章終わり" />
   </component>
 </project>
