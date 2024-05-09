@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d54ec2c-c84b-4ce5-99c8-1f7b2cfc224a" name="変更" comment="9章終わり">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Chap10.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Check01.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5d54ec2c-c84b-4ce5-99c8-1f7b2cfc224a" name="変更" comment="Check01終わり" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1715130858732</updated>
       <workItem from="1715130859938" duration="16593000" />
-      <workItem from="1715214935193" duration="2142000" />
+      <workItem from="1715214935193" duration="2453000" />
     </task>
     <task id="LOCAL-00001" summary="2章終わり">
       <option name="closed" value="true" />
@@ -192,7 +188,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715216216049</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="10章終わり">
+      <option name="closed" value="true" />
+      <created>1715217351261</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715217351261</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Check01終わり">
+      <option name="closed" value="true" />
+      <created>1715217376059</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715217376059</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +225,8 @@
     <MESSAGE value="2章終わり" />
     <MESSAGE value="8章終わり" />
     <MESSAGE value="9章終わり" />
-    <option name="LAST_COMMIT_MESSAGE" value="9章終わり" />
+    <MESSAGE value="10章終わり" />
+    <MESSAGE value="Check01終わり" />
+    <option name="LAST_COMMIT_MESSAGE" value="Check01終わり" />
   </component>
 </project>
