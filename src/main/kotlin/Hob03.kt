@@ -13,47 +13,52 @@ class JudgeShape {
             val n: String? = readLine()
             if (n != null && (n == "1" || n == "2")) {
                 when (n) {
-                    "1" -> createCircle()
-                    "2" -> createRectangle()
+                    "1" -> createShape("Circle")
+                    "2" -> createShape("Rectangle")
                 }
                 break
             } else {
-                println("Type 1 or 2")
+                println("Its a invalid input. Please type 1 or 2")
             }
 
         }
     }
 
-    private fun createCircle() {
-        val radius = getDoubleInput("radius")
-        val circle = Circle(radius)
-        PrintAnswer().answer(circle.name, circle.area())
+    private fun createShape(shapeType: String) {
+        when (shapeType) {
+            "Circle" -> {
+                val radius = getDoubleInput("radius")
+                val circle = Circle(radius)
+                printAnswer(circle)
+            }
+            "Rectangle" -> {
+                val width = getDoubleInput("width")
+                val height = getDoubleInput("height")
+                val rectangle = Rectangle(width, height)
+                printAnswer(rectangle)
+            }
+        }
     }
-    private fun createRectangle() {
-        val width = getDoubleInput("width")
-        val height = getDoubleInput("height")
-        val rectangle = Rectangle(width,height)
-        PrintAnswer().answer(rectangle.name, rectangle.area())
+
     }
-    private fun getDoubleInput(value: String): Double {
+
+    private fun getDoubleInput(valueName: String): Double {
         while (true) {
-            println("Type $value")
+            println("Type $valueName")
             val input = readLine()
             val doubleValue = input?.toDoubleOrNull()
             if (doubleValue != null) {
                 return doubleValue
             } else {
-                println("Invalid input. Please enter a valid value.")
+                println("Invalid input. Please enter a valid $valueName.")
             }
         }
     }
-}
-
-class PrintAnswer {
-    fun answer(shapeName: String, ans: Double) {
-        println("Shape:${shapeName} answer: ${ans}")
+    private fun printAnswer(shape: Shape) {
+        println("Shape: ${shape.name}, Area: ${shape.area()}")
     }
-}
+
+
 
 class Circle(val radius: Double) : Shape("Circle") {
     override fun area(): Double {
