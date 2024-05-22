@@ -8,7 +8,7 @@ abstract class Shape(val name: String) {
 
 class JudgeShape {
     fun judge() {
-        while(true) {
+        while (true) {
             println("Select 1: Circle, 2: Rectangle")
             val n: String? = readLine()
             if (n != null && (n == "1" || n == "2")) {
@@ -18,9 +18,8 @@ class JudgeShape {
                 }
                 break
             } else {
-                println("Its a invalid input. Please type 1 or 2")
+                println("It's an invalid input. Please type 1 or 2.")
             }
-
         }
     }
 
@@ -40,8 +39,6 @@ class JudgeShape {
         }
     }
 
-    }
-
     private fun getDoubleInput(valueName: String): Double {
         while (true) {
             println("Type $valueName")
@@ -54,11 +51,11 @@ class JudgeShape {
             }
         }
     }
+
     private fun printAnswer(shape: Shape) {
         println("Shape: ${shape.name}, Area: ${shape.area()}")
     }
-
-
+}
 
 class Circle(val radius: Double) : Shape("Circle") {
     override fun area(): Double {
