@@ -8,14 +8,22 @@ abstract class Shape(val name: String) {
 
 class JudgeShape {
     fun judge() {
-        println("Select 1: Circle, 2: Rectangle")
-        val n: String = readLine() ?: ""
-        when (n) {
-            "1" -> createCircle()
-            "2" -> createRectangle()
-            else -> println("Type 1 or 2")
+        while(true) {
+            println("Select 1: Circle, 2: Rectangle")
+            val n: String? = readLine()
+            if (n != null && (n == "1" || n == "2")) {
+                when (n) {
+                    "1" -> createCircle()
+                    "2" -> createRectangle()
+                }
+                break
+            } else {
+                println("Type 1 or 2")
+            }
+
         }
     }
+
     private fun createCircle() {
         val radius = getDoubleInput("radius")
         val circle = Circle(radius)
@@ -38,11 +46,6 @@ class JudgeShape {
                 println("Invalid input. Please enter a valid value.")
             }
         }
-//        println("Type ${value}")
-//        return readln()?.toDoubleOrNull() ?: run {
-//            println("Invalid input. Set default value 0.0")
-//            0.0
-//        }
     }
 }
 
